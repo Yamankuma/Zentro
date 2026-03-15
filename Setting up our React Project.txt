@@ -1,0 +1,2 @@
+delete Readme file app.js app.css index.css
+all logo delete icon image delete

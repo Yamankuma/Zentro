@@ -1,0 +1,30 @@
+Project Overview
+
+1.Tools Required
+2.Frontend Technologies
+3.Backend Technologies
+4.Database Configuration
+5.Testing Framework
+6.Deployment Platform
+7.GitHub Setup
+
+
+1. (I) vs studio code
+(ii) google chrome
+(iii) node JS
+(iv) git and GitHub
+
+2. (i) Html CSS JS
+(ii) React JS
+(iii) Bootstrap
+(iv) Material UI
+
+3. node JS
+(ii) Express JS
+
+
+4. (I) mongoDB
+
+5. (I) Jest
+
+6. aws
