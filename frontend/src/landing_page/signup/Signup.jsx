@@ -17,9 +17,9 @@ function Signup() {
         username,
         password
       });
-       
-      window.location.href="/";
       alert(res.data.message);
+      window.location.href="/";
+     
 
     }catch(err){
       console.log(err);
