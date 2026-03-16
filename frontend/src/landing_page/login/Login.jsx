@@ -11,14 +11,14 @@ const handleLogin = async (e)=>{
 
   try{
 
-    const res = await axios.post("http://localhost:3000/login",{
+    const res = await axios.post("https://zentro-production-5266.up.railway.app/login",{
       email,
       password
     });
 
     localStorage.setItem("token",res.data.token);
 
-    window.location.href="http://localhost:5174/";
+    window.location.href="/";
 
     alert("Login successful");
 
