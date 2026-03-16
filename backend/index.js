@@ -169,7 +169,9 @@ app.get("/profile", verifyToken, async (req, res) => {
   res.json(user);
 
 });
-
+app.get("/", (req, res) => {
+  res.send("Zentro API is running 🚀");
+});
 const port = process.env.PORT || 3000;
 app.listen(port,()=>{
     console.log(`listening on port ${port}`);
