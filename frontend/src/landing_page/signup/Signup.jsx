@@ -18,7 +18,7 @@ function Signup() {
         password
       });
        
-      window.location.href="http://localhost:5174/";
+      window.location.href="/";
       alert(res.data.message);
 
     }catch(err){
