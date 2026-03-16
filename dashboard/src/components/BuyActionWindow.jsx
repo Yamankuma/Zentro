@@ -25,7 +25,7 @@ const BuyActionWindow = ({ uid }) => {
   };
 
    const handleSellClick = () => {
-    axios.post("http://localhost:3000/newOrder", {
+    axios.post("https://zentro-production-5266.up.railway.app/newOrder", {
       name: uid,
       qty: stockQuantity,
       price: stockPrice,
