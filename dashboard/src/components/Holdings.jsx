@@ -9,7 +9,7 @@ const Holdings = () => {
   const [allHoldings, setAllHoldings] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:3000/allHoldings").then((res) => {
+    axios.get("https://zentro-production-5266.up.railway.app/allHoldings").then((res) => {
       // console.log(res.data);
       setAllHoldings(res.data);
     });
