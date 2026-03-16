@@ -12,7 +12,7 @@ function Signup() {
 
     try{
 
-      const res = await axios.post("http://localhost:3000/register",{
+      const res = await axios.post("https://zentro-production-5266.up.railway.app/register",{
         email,
         username,
         password
