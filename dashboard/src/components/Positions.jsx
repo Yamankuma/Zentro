@@ -5,7 +5,7 @@ import axios, { all } from "axios";
 const Positions = () => {
        const [allPosition , setAllPosition] = useState([]);
    useEffect(() => {
-      axios.get("http://localhost:3000/allPosition").then((res) => {
+      axios.get("https://zentro-production-5266.up.railway.app/allPosition").then((res) => {
         // console.log(res.data);
         setAllPosition(res.data);
       });
