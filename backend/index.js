@@ -24,7 +24,11 @@ main().then(()=>{
     console.log("DB connecting succefully")
 })
 
-app.use(cors())
+app.use(cors({
+    origin: "https://zentro-app.netlify.app",
+  methods: ["GET", "POST"],
+  credentials: true
+}))
 app.use(bodyParse.json());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
