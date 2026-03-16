@@ -18,9 +18,10 @@ const handleLogin = async (e)=>{
 
     localStorage.setItem("token",res.data.token);
 
+    alert("Login successful");
     window.location.href="/";
 
-    alert("Login successful");
+    
 
   }catch(err){
     console.log(err);
