@@ -107,7 +107,7 @@ app.post("/register", async (req, res) => {
     const user = await User.create({
       email,
       username,
-      password,
+      password : hashedPassword,
     });
 
     res.json({
@@ -164,7 +164,7 @@ app.get("/profile", verifyToken, async (req, res) => {
 
 });
 
-const port = process.env.PORT;
+const port = process.env.PORT || 3000;
 app.listen(port,()=>{
     console.log(`listening on port ${port}`);
 })
