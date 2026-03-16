@@ -6,7 +6,7 @@ const Orders = () => {
   
          const [allOrder , setAllOrder] = useState([]);
      useEffect(() => {
-        axios.get("zentro-production-5266.up.railway.app/allOrder").then((res) => {
+        axios.get("https://zentro-production-5266.up.railway.app/allOrder").then((res) => {
           // console.log(res.data);
           setAllOrder(res.data);
         });
