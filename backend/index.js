@@ -25,7 +25,10 @@ main().then(()=>{
 })
 
 app.use(cors({
-    origin: "https://zentro-app.netlify.app",
+    origin: [
+    "https://zentro-app.netlify.app",
+    "https://zetro-dashboard.netlify.app"
+  ],
   methods: ["GET", "POST"],
   credentials: true
 }))
