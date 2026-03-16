@@ -41,7 +41,7 @@ const Menu = () => {
           <li>
             <Link
               style={{ textDecoration: "none" }}
-              to="/allOrder"
+              to="/order"
               onClick={() => handleMenuClick(1)}
             >
               <p className={selectedMenu === 1 ? activeMenuClass : menuClass}>
@@ -52,7 +52,7 @@ const Menu = () => {
           <li>
             <Link
               style={{ textDecoration: "none" }}
-              to="/allHoldings"
+              to="/holdings"
               onClick={() => handleMenuClick(2)}
             >
               <p className={selectedMenu === 2 ? activeMenuClass : menuClass}>
@@ -63,7 +63,7 @@ const Menu = () => {
           <li>
             <Link
               style={{ textDecoration: "none" }}
-              to="/allPosition"
+              to="/positions"
               onClick={() => handleMenuClick(3)}
             >
               <p className={selectedMenu === 3 ? activeMenuClass : menuClass}>
