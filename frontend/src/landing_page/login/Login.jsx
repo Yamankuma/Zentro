@@ -19,7 +19,7 @@ const handleLogin = async (e)=>{
     localStorage.setItem("token",res.data.token);
 
     alert("Login successful");
-    window.location.href="/";
+    window.location.href="https://69b7a9b655d43c3be769b0a2--zetro-dashboard.netlify.app/";
 
     
 
