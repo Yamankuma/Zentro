@@ -100,6 +100,8 @@ app.get("/allOrder", async(req, res)=>{
 
 app.post("/register", async (req, res) => {
 
+const hashedPassword = await bcrypt.hash(password, 10);
+    
   const { email, username, password } = req.body;
 
   try {
