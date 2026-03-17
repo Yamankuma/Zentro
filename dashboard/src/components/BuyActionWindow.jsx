@@ -11,8 +11,8 @@ const BuyActionWindow = ({ uid }) => {
   const [stockQuantity, setStockQuantity] = useState(1);
   const [stockPrice, setStockPrice] = useState(0.0);
 
-  const handleBuyClick = async () => {
-      await  axios.post("https://zentro-production-5266.up.railway.app/newOrder", {
+  const handleBuyClick = () => {
+       axios.post("https://zentro-production-5266.up.railway.app/newOrder", {
       name: uid,
       qty: stockQuantity,
       price: stockPrice,
@@ -24,8 +24,8 @@ const BuyActionWindow = ({ uid }) => {
     GeneralContext.closeBuyWindow();
   };
 
-   const handleSellClick = async () => {
-   await axios.post("https://zentro-production-5266.up.railway.app/newOrder", {
+   const handleSellClick =  () => {
+   axios.post("https://zentro-production-5266.up.railway.app/newOrder", {
       name: uid,
       qty: stockQuantity,
       price: stockPrice,
