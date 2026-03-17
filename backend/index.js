@@ -26,7 +26,7 @@ main().then(()=>{
 
 app.use(cors({
     origin: [
-    "https://zentro-app.netlify.app",
+    "https://zarodha.netlify.app/",
     "https://zetro-dashboard.netlify.app"
   ],
   methods: ["GET", "POST"],
