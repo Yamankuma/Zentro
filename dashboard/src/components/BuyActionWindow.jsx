@@ -12,7 +12,7 @@ const BuyActionWindow = ({ uid }) => {
   const [stockPrice, setStockPrice] = useState(0.0);
 
   const handleBuyClick = () => {
-    axios.post("zentro-production-5266.up.railway.app/newOrder", {
+    axios.post("https://zentro-production-5266.up.railway.app/newOrder", {
       name: uid,
       qty: stockQuantity,
       price: stockPrice,
