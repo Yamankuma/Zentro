@@ -18,7 +18,7 @@ function Signup() {
         password
       });
       alert(res.data.message);
-      window.location.href="https://zetro-dashboard.netlify.app/";
+      window.location.href="https://zentro-dashboard.netlify.app/";
      
 
     }catch(err){
