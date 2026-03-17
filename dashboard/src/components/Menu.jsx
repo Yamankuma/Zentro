@@ -16,7 +16,7 @@ const Menu = () => {
   
   const handleLogout = () => {
     localStorage.removeItem("token");
-    window.location.href = "https://zentro-app.netlify.app/";
+    window.location.href = "https://zarodha.netlify.app/";
   };
 
   const menuClass = "menu";
